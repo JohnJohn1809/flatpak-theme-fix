@@ -74,9 +74,9 @@ Infelizmente alguns aplicativos podem não reconhecer algum tema. Sinceramente �
 
 ### Links Úteis
 
-[cp man](https://www.man7.org/linux/man-pages/man1/cp.1.html)
+- [cp man](https://www.man7.org/linux/man-pages/man1/cp.1.html)
 
-[cd man](https://www.man7.org/linux/man-pages/man1/cd.1p.html)
+- [cd man](https://www.man7.org/linux/man-pages/man1/cd.1p.html)
 
 ### Contato
 
