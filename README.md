@@ -2,6 +2,30 @@
 
 Uma das inconveniências dos aplicativos empacotados como flatpaks é a possibilidade dos mesmos não identificarem os temas. Para solucionar basta copiar o arquivo `settings.ini` para a pasta de configuração do aplicativo flatpak.
 
+### Settings.ini
+
+`settings.ini` é o arquivo que guarda as informações de quais temas gtk você está usando. Exemplo:
+
+```
+
+[Settings]
+gtk-theme-name=Arc-Dark
+gtk-icon-theme-name=Papirus-Dark
+gtk-font-name=Sans 10
+gtk-cursor-theme-name=capitaine-cursors
+gtk-cursor-theme-size=0
+gtk-toolbar-style=GTK_TOOLBAR_BOTH
+gtk-toolbar-icon-size=GTK_ICON_SIZE_LARGE_TOOLBAR
+gtk-button-images=1
+gtk-menu-images=1
+gtk-enable-event-sounds=1
+gtk-enable-input-feedback-sounds=1
+gtk-xft-antialias=1
+gtk-xft-hinting=1
+gtk-xft-hintstyle=hintfull
+
+```
+
 ### Fixing
 
 Copie o arquivo `settings.ini` para a pasta de configuração do aplicativo flatpak. O arquivo `settings.ini` fica no caminho `$HOME/.config/gtk-3.0/`. Exemplo:
@@ -22,6 +46,8 @@ cp -R $HOME/.config/gtk-3.0/settings.ini "$HOME/.var/app/com.github.maoschanz.dr
 
 ```
 
+![Image_01](https://i.imgur.com/WUuLcxc.png)
+
 #### Blanket
 
 ```
@@ -30,6 +56,8 @@ cp -R $HOME/.config/gtk-3.0/settings.ini "$HOME/.var/app/com.rafaelmardojai.Blan
 
 ```
 
+![Image_02](https://i.imgur.com/8q7mwty.png)
+
 #### Warpinator
 
 ```
@@ -37,3 +65,5 @@ cp -R $HOME/.config/gtk-3.0/settings.ini "$HOME/.var/app/com.rafaelmardojai.Blan
 cp -R $HOME/.config/gtk-3.0/settings.ini "$HOME/.var/app/org.x.Warpinator/config/gtk-3.0/"
 
 ```
+
+![Image_03](https://i.imgur.com/JsPl0rM.png)
