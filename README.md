@@ -67,3 +67,14 @@ cp -R $HOME/.config/gtk-3.0/settings.ini "$HOME/.var/app/org.x.Warpinator/config
 ```
 
 ![Image_03](https://i.imgur.com/JsPl0rM.png)
+
+### Observações
+
+Infelizmente alguns aplicativos podem não reconhecer algum tema. Sinceramente é frustante mas não sei o que pode ser. No meu caso, firefox e anki não reconheceu o cursor theme e cockatrice o arc theme.
+
+### Contato
+
+Caso tenha dúvidas sobre algo ou sugestões.
+
+- Discord: JohnJohn1809#4864
+- Telegram: @JohnJohn1809
